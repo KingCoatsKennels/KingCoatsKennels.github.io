@@ -7,3 +7,8 @@ author: Dave M. Coats
 
 
 #theme: jekyll-theme-midnight
+
+
+exclude:
+    - .gitignore
+    - CNAME
