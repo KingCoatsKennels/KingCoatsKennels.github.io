@@ -1,4 +1,3 @@
-
 <!doctype html>
 
 
@@ -10,6 +9,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ site.name }}{% if page.title %} | {{ page.title }} {% endif %}</title>
+
+<link href="{{'/assets/css/kingcoatskennels.css' | relative_url }}" rel ="stylesheet">
+<script src="{{'assets/js/kingcoatskennels.js' | relative_url }}" > </script>
 
     
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -27,7 +29,11 @@
 <body>
 
 <div>
-
+<a href="https://kingcoatskennels.com">
+<img src="assets/images/KingCoatsKennelsLogo.png" alt="King Coats Kennels Logo" width="90" height="60" border="0" />
+</a>
+    
+<a href="{{ '' | relative_url }}/">Home</a>
 <a href="{{ 'album.html' | relative_url }}">Album</a>
 
 </div>
