@@ -1,14 +1,24 @@
 
+title: King Coats Kennels
+email: kingcoatskennels@gmail.com
 
 url: "https://kingcoatskennels.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 author: Dave M. Coats
 
+social:
+instagram: kingcoatskennels
+
+timezone: America/Los_Angeles
 
 
+#Build settings
+markdown: kramdown
 #theme: jekyll-theme-midnight
 
-
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 exclude:
     - .gitignore
     - CNAME
