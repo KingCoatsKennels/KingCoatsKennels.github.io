@@ -1,7 +1,15 @@
- {% if site.social.instagram %}
- 
- <a title="{{ site.social.instagram }} on Instagram" 
- href="https://instagram.com/{{ site.social.instagram }}" 
- target="_blank"></a>
- 
+<ul class="social_med">
+
+{% if site.social.instagram %}
+ <li><a title="{{ site.instagram }} on Instagram" 
+ href="https://instagram.com/{{ site.instagram }}" 
+        target="_blank"><i class="fa fa-instagram"></i>Instagram</a></li>
 {% endif %} 
+ 
+ {% if site.social.twitter %}
+ <li><a title="{{ site.twitter }} on Twitter" 
+ href="https://twitter.com/{{ site.twitter }}" 
+        target="_blank"> <i class="fa fa-twitter"></i>Twitter</a></li>
+{% endif %}
+ 
+</ul>
