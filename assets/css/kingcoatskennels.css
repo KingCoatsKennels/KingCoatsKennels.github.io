@@ -1,1 +1,105 @@
+/**
+ * Site header
+ */
 
+.navbar-nav a {
+
+/**	display:inline-block;	*/
+
+}
+
+/**
+ * Site body
+ */
+
+
+
+a:link {
+	
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	text-decoration: underline;
+
+}
+
+
+body {
+
+	text-align:center;
+
+}
+
+
+/**
+ * End Site body 
+ */
+
+
+/**
+ * Site footer
+ */
+
+
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+
+
+
+/**
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+*/
+
+
+
+/**
+ * Page content
+ */
+
+
+
+
+
+/**
+ * Social footer
+ */
+
+
+.social_med {
+
+  text-align: center;
+
+}
+
+.social_med li {
+
+	display:inline-block;
+	list-style-type:none;
+
+}
+
+
+.social-med {
+  display: table;
+  margin: 0 auto;
+  li {
+    float: left;
+    margin: 0 5px;
+    &:first-of-type { margin-left: 0 }
+    &:last-of-type { margin-right: 0 }
+    a {
+      display: block;
+      padding: $spacing-unit / 4;
+      border: 1px solid $grey-color-light
+    }
+    &:hover .svg-icon { fill: currentColor; }
+  }
+}
